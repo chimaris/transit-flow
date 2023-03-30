@@ -1,6 +1,10 @@
 import email from '../../assets/email.svg'
 import phone from '../../assets/phone.svg'
 import logo from '../../assets/Logo.svg'
+import instagram from '../../assets/instagram.svg'
+import facebook from '../../assets/facebook.svg'
+import twitter from '../../assets/twitter.svg'
+import linkedin from '../../assets/linkedin.svg'
 
 const Footer = () => {
   return (
@@ -55,8 +59,15 @@ const Footer = () => {
             <div>
               <h2 className='mb-8 py-11 text-[25px] font-medium'>Subscribe</h2>
               <form>
-                <input type="email" placeholder='Email*' className='bg-transparent border border-[#4E5683] py-4 px-7' />
-                <button className="h=[60px] px-12 py-5 text-[#23212A] my-8 block" style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)"}}>Send Now</button>
+                <input type="email" placeholder='Email*' className='bg-transparent border border-[#4E5683] py-4 px-7 w-full' />
+                <div className='flex justify-between items-center gap-6'>
+                  <button className="h=[60px] px-12 py-5 text-[#23212A] my-8 block" style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)"}}>Send Now</button>
+                  <div className='flex justify-between items-center gap-4'>
+                    <img src={linkedin} alt="linkedin" />
+                    <img src={twitter} alt="twitter" />
+                    <img src={facebook} alt="facebook" />
+                </div>
+                </div>
               </form>
             </div>
             </div>
