@@ -1,11 +1,6 @@
-import React from 'react'
 import team1 from '../../assets/team1.svg'
 import team2 from '../../assets/team2.svg'
 import team3 from '../../assets/team3.svg'
-import instagram from '../../assets/instagram.svg'
-import facebook from '../../assets/facebook.svg'
-import twitter from '../../assets/twitter.svg'
-import linkedin from '../../assets/linkedin.svg'
 
 const Team = () => {
   return (

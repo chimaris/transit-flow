@@ -1,7 +1,6 @@
 import email from '../../assets/email.svg'
 import phone from '../../assets/phone.svg'
 import logo from '../../assets/Logo.svg'
-import instagram from '../../assets/instagram.svg'
 import facebook from '../../assets/facebook.svg'
 import twitter from '../../assets/twitter.svg'
 import linkedin from '../../assets/linkedin.svg'
