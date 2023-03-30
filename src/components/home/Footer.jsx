@@ -1,6 +1,6 @@
-import logo from '../../assets/logo.svg'
 import email from '../../assets/email.svg'
 import phone from '../../assets/phone.svg'
+import logo from '../../assets/logo.svg'
 
 const Footer = () => {
   return (
