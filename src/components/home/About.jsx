@@ -33,7 +33,7 @@ const About = () => {
             <div>
                 <img src={airplane} alt="Airplane" />
             </div>
-            <img src={lady} alt="lady" className='absolute right-[450px] bottom-10' />
+            <img src={lady} alt="lady" className='absolute right-[448px] bottom-10' />
         </div>
     </div>
   )

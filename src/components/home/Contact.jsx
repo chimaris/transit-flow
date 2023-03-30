@@ -6,9 +6,9 @@ import phone from '../../assets/phone.svg'
 const Contact = () => {
   return (
     <div className='w-full bg-[#091242] text-white p-32'>
-        <div className='w-[80%] mx-auto'>
+        <div className='w-[90%] mx-auto'>
             <h3 className='text-sm px-[9px] py-[3px] border-l-4 border-[#FFB629] w-[100px]' style={{fontFamily:'Rubik'}}>Contact</h3>
-            <div className='flex justify-between pt-8 gap-4'>
+            <div className='flex justify-between pt-8 gap-12'>
                 <div className='w-[46%] flex flex-col gap-4'>
                     <h2 className='text-[32px] font-semibold' style={{fontFamily: 'Rubik'}}>Get in touch with us</h2>
                     <p className=''>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value.</p>
