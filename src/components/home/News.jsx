@@ -1,4 +1,3 @@
-import React from 'react'
 import blog1 from '../../assets/blog1.svg'
 import date from '../../assets/date.svg'
 

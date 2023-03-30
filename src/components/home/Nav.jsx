@@ -1,4 +1,3 @@
-import React from 'react'
 import downArrow from '../../assets/down-arrow.svg'
 import instagram from '../../assets/instagram.svg'
 import facebook from '../../assets/facebook.svg'
