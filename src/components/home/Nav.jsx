@@ -8,7 +8,7 @@ import linkedin from '../../assets/linkedin.svg'
 
 const Nav = () => {
   return (
-    <div className='flex justify-around items-center h-20 text-white' style={{background:'rgba(9, 18, 66, 0.25)'}}>
+    <div className='flex justify-around items-center h-20 text-white w-full' style={{background:'rgba(9, 18, 66, 0.25)'}} >
         <ul className='flex items-center text-white'>
             <li className='px-[30px] border-r'>Home</li>
             <li className='px-[30px] border-r'>About</li>
