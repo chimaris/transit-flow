@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className='relative'>
         <div className="bg-[url('/about-background.svg')] h-[504px] bg-contain bg-no-repeat"></div>
-        <div className='flex justify-center w-[90%] gap-24 absolute left-[123px] -bottom-96 bg-white p-[85px]'>
+        <div className='flex justify-center w-[90%] gap-24 absolute left-[65px] -bottom-96 bg-white p-[85px]'>
             <div className='w-[472px] flex flex-col gap-4'>
                 <h3 className='text-sm px-[9px] py-[3px] border-l-4 border-[#FFB629] w-[100px]' style={{fontFamily:'Rubik', background: 'rgba(232, 232, 232, 0.5)'}}>Why Us</h3>
                 <h2 className='text-[#1C1F35] text-[32px] font-semibold' style={{fontFamily: 'Rubik'}}>We provide full range global logistics solution</h2>
