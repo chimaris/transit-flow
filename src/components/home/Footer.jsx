@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from '../../assets/logo.svg'
 import email from '../../assets/email.svg'
 import phone from '../../assets/phone.svg'

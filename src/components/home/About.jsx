@@ -1,4 +1,3 @@
-import React from 'react'
 import airplane from '../../assets/airplane.svg'
 import time from '../../assets/time.svg'
 import money from '../../assets/money.svg'

@@ -1,4 +1,3 @@
-import React from 'react'
 import clock from '../../assets/clock.svg'
 import email from '../../assets/email.svg'
 import phone from '../../assets/phone.svg'
