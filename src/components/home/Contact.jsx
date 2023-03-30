@@ -51,11 +51,11 @@ const Contact = () => {
                 </form>
                </div>
             </div>
-            <div className='flex w-[100%]'>
-                <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat w-[222px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
-                <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat w-[222px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
-                <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat w-[222px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
-                <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat w-[222px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
+            <div className='flex'>
+                <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat lg:w-[222px] xl:w-[299px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
+                <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat lg:w-[222px] xl:w-[299px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
+                <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat lg:w-[222px] xl:w-[299px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
+                <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat lg:w-[222px] xl:w-[299px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
             </div>
         </div>
     </div>

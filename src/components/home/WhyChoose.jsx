@@ -68,7 +68,7 @@ const WhyChoose = () => {
                     </div>
                 </div>
         </div>
-        <div className="absolute bg-[url('/airplane1.svg')] w-[850px] h-[430px] bg-no-repeat bg-contain left-12 top-32 pt-[324px] pl-48">
+        <div className="absolute bg-[url('/airplane1.svg')] w-[850px] h-[430px] bg-no-repeat bg-contain lg:left-12 xl:left-20 top-32 pt-[324px] pl-48">
                 <div className='flex items-center bg-white w-[280px] gap-4 p-3' style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)"}}>
                     <img src={crossIcon} alt="Cross border icon" />
                     <p>Moving your products across borders</p>

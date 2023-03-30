@@ -23,7 +23,7 @@ const Nav = () => {
                   <img src={twitter} alt="twitter" />
                   <img src={linkedin} alt="linkedin" />
                 </div>
-                <a className='px-14 py-7 bg-white text-[#23212A] font-semibold'>Request Quote</a>
+                <a className='px-[52px] py-7 bg-white text-[#23212A] font-semibold'>Request Quote</a>
 
               </div>
           </div>
