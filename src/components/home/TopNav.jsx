@@ -12,29 +12,29 @@ const TopNav = () => {
             <div>
                 <img src={logo} alt="logo" />
             </div>
-            <div className='flex justify-between items-center gap-4 font-["Krub"]'>
-                <div className='flex justify-between items-center gap-2'>
+            <div className='flex justify-between items-center gap-6 font-["Krub"]'>
+                <div className='flex justify-between items-center gap-4'>
                     <div>
                         <img src={clock} alt="clock" />
                     </div>
                     <div>
-                        <p>Mon - Sat 9.00 - 18.00 <br /> Sunday Closed </p>
+                        <p className='text-sm'>Mon - Sat 9.00 - 18.00 <br /> Sunday Closed </p>
                     </div>
                 </div>
-                <div className='flex justify-between items-center gap-2'>
+                <div className='flex justify-between items-center gap-4'>
                     <div>
                         <img src={email} alt="email" />
                     </div>
                     <div>
-                        <p>Email <br />contact@logistics.com </p>
+                        <p className='text-sm'>Email <br />contact@logistics.com </p>
                     </div>
                 </div>
-                <div className='flex justify-between items-center gap-2'>
+                <div className='flex justify-between items-center gap-4'>
                     <div>
                         <img src={phone} alt="phone" />
                     </div>
                     <div>
-                        <p>Call Us <br />(00) 112 365 489 </p>
+                        <p className='text-sm'>Call Us <br />(00) 112 365 489 </p>
                     </div>
                 </div>
             </div>
