@@ -17,9 +17,9 @@ const Team = () => {
                     <h3 className='text-xl'>Jessca Arow <br /> <span className='text-base'>Designer</span></h3>
                 </div>
                 <div className='absolute p-5 bottom-28 right-0 flex justify-between gap-4' style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)"}}>
-                    <ion-icon name="logo-twitter" style={{color:'#1C1F35', fontSize:'30' }}></ion-icon>
-                    <ion-icon name="logo-facebook" style={{color:'#1C1F35', fontSize:'30'}}></ion-icon>
-                    <ion-icon name="logo-instagram" style={{color:'#1C1F35', fontSize:'30'}}></ion-icon>
+                    <ion-icon name="logo-twitter" style={{color:'#1C1F35', fontSize:'30px' }}></ion-icon>
+                    <ion-icon name="logo-facebook" style={{color:'#1C1F35', fontSize:'30px'}}></ion-icon>
+                    <ion-icon name="logo-instagram" style={{color:'#1C1F35', fontSize:'30px'}}></ion-icon>
                 </div>
             </div>
             <div className='w-[364px] h-[538px] relative'>
@@ -28,10 +28,10 @@ const Team = () => {
                     <h3 className='text-xl'>Kathleen Smith <br /> <span className='text-base'>Designer</span></h3>
                 </div>
                 <div className='absolute p-5 bottom-28 right-0 flex justify-between gap-4' style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)"}}>
-                    <ion-icon name="logo-linkedin" style={{color:'#1C1F35', fontSize:'30'}}></ion-icon>
-                    <ion-icon name="logo-twitter" style={{color:'#1C1F35', fontSize:'30' }}></ion-icon>
-                    <ion-icon name="logo-facebook" style={{color:'#1C1F35', fontSize:'30'}}></ion-icon>
-                    <ion-icon name="logo-instagram" style={{color:'#1C1F35', fontSize:'30'}}></ion-icon>
+                    <ion-icon name="logo-linkedin" style={{color:'#1C1F35', fontSize:'30px'}}></ion-icon>
+                    <ion-icon name="logo-twitter" style={{color:'#1C1F35', fontSize:'30px' }}></ion-icon>
+                    <ion-icon name="logo-facebook" style={{color:'#1C1F35', fontSize:'30px'}}></ion-icon>
+                    <ion-icon name="logo-instagram" style={{color:'#1C1F35', fontSize:'30px'}}></ion-icon>
                 </div>
             </div>
             <div className='w-[364px] h-[538px] relative'>
@@ -40,8 +40,8 @@ const Team = () => {
                     <h3 className='text-xl'>Rebecca Tylor <br /> <span className='text-base'>Designer</span></h3>
                 </div>
                 <div className='absolute p-5 bottom-28 right-0 flex justify-between gap-4' style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)"}}>
-                    <ion-icon name="logo-instagram" style={{color:'#1C1F35', fontSize:'30'}}></ion-icon>
-                    <ion-icon name="logo-facebook" style={{color:'#1C1F35', fontSize:'30'}}></ion-icon>
+                    <ion-icon name="logo-instagram" style={{color:'#1C1F35', fontSize:'30px'}}></ion-icon>
+                    <ion-icon name="logo-facebook" style={{color:'#1C1F35', fontSize:'30px'}}></ion-icon>
                 </div>
             </div>
            
