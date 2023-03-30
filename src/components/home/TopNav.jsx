@@ -18,7 +18,7 @@ const TopNav = () => {
                         <img src={clock} alt="clock" />
                     </div>
                     <div>
-                        <p>Mon - Sat 9.00 - 18.00 <br /> Sunday Closed </p>
+                        <p className='text-sm'>Mon - Sat 9.00 - 18.00 <br /> Sunday Closed </p>
                     </div>
                 </div>
                 <div className='flex justify-between items-center gap-4'>
@@ -26,7 +26,7 @@ const TopNav = () => {
                         <img src={email} alt="email" />
                     </div>
                     <div>
-                        <p>Email <br />contact@logistics.com </p>
+                        <p className='text-sm'>Email <br />contact@logistics.com </p>
                     </div>
                 </div>
                 <div className='flex justify-between items-center gap-4'>
@@ -34,7 +34,7 @@ const TopNav = () => {
                         <img src={phone} alt="phone" />
                     </div>
                     <div>
-                        <p>Call Us <br />(00) 112 365 489 </p>
+                        <p className='text-sm'>Call Us <br />(00) 112 365 489 </p>
                     </div>
                 </div>
             </div>
