@@ -4,8 +4,8 @@ import phone from '../../assets/phone.svg'
 
 const Contact = () => {
   return (
-    <div className='w-full bg-[#091242] text-white p-32'>
-        <div className='w-[90%] mx-auto'>
+    <div className='w-screen bg-[#091242] text-white p-32'>
+        <div className='lg:w-[100%] xl:w-[90%] mx-auto'>
             <h3 className='text-sm px-[9px] py-[3px] border-l-4 border-[#FFB629] w-[100px]' style={{fontFamily:'Rubik'}}>Contact</h3>
             <div className='flex justify-between pt-8 gap-12'>
                 <div className='w-[46%] flex flex-col gap-4'>
@@ -51,7 +51,7 @@ const Contact = () => {
                 </form>
                </div>
             </div>
-            <div className='flex'>
+            <div className='flex justify-around'>
                 <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat lg:w-[222px] xl:w-[299px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
                 <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat lg:w-[222px] xl:w-[299px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
                 <div className="bg-[url('/norto.svg')] bg-cover bg-center bg-no-repeat lg:w-[222px] xl:w-[299px] h-[234px] px-16 py-24"><h1 className='text-4xl'>NORTO</h1></div>
