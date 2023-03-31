@@ -2,7 +2,7 @@
 
 const Hero = () => {
   return (
-    <div className="w-[80%] mx-auto mt-[150px]">
+    <div className="lg:w-[90%] xl:w-[80%] mx-auto mt-[150px]">
       <div className="flex flex-col gap-4 w-[571px] h-[406px]" style={{fontFamily:'Rubik'}}>
         <p style={{fontFamily:'Rubik', background: 'rgba(4, 28, 55, 0.5)'}} className='text-sm px-[9px] py-[3px] border-l-4 border-[#FFB629] w-[250px]'>Logistics & Supply Chain Solutions</p>
         <h1 className="text-6xl font-bold" style={{fontFamily:'Rubik', lineHeight: '71px'}}>Your Gateway <br /> to any Destination in the World</h1>

@@ -8,9 +8,9 @@ import linkedin from '../../assets/linkedin.svg'
 const Footer = () => {
   return (
     <>
-      <div className="w-full bg-[url('/footer-background.svg')] bg-no-repeat bg-cover h-[412px]"></div>
-      <div className='w-full bg-[#091242] text-[white] pb-12 mt-0'>
-          <div className='flex justify-between w-[80%] m-auto'>
+      <div className="w-screen bg-[url('/footer-background.svg')] bg-no-repeat bg-contain lg:h-[221px] xl:h-[276px]"></div>
+      <div className='w-screen bg-[#091242] text-[white] pb-12 mt-0'>
+          <div className='flex justify-between lg:w-[90%] xl:w-[80%] m-auto'>
             <div className='w-[319px]'>
               <img src={logo} alt="" className='mb-8 py-11' />
               <div className='flex flex-col gap-4'>
@@ -73,7 +73,7 @@ const Footer = () => {
             
           </div>
           <div className='w-full bg-[#091242] text-[white] border-t border-[#4E5683]'>
-            <div className='flex justify-between w-[80%] m-auto py-4'>
+            <div className='flex justify-between lg:w-[90%] xl:w-[80%] m-auto py-4'>
                 <p>Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.</p>
                 <ul className='text-[#8388A7] flex gap-4'>
                   <li>Style Guide</li>
