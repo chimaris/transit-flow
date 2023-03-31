@@ -43,7 +43,7 @@ const Services = () => {
                         <img src={bus} alt="bus" />
                     </div>
                     <div className='border-l border-[#D8D8D8] pl-6 w-[320px]'>
-                        <h2 className='text-[#1C1F35] lg:text-xl xl:text-2xl'>Local Shipping Services</h2>
+                        <h2 className='text-[#1C1F35] lg:text-xl xl:text-[20px]'>Local Shipping Services</h2>
                         <p className='text-[#666C89]'>Following the quality of our service thus having gained trust of our many clients.</p>
                     </div>
                 </div>
