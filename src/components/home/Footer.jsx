@@ -8,17 +8,17 @@ import linkedin from '../../assets/linkedin.svg'
 const Footer = () => {
   return (
     <>
-      <div className="w-screen bg-[url('/footer-background.svg')] bg-no-repeat bg-contain lg:h-[221px] xl:h-[276px]"></div>
-      <div className='w-screen bg-[#091242] text-[white] pb-12 mt-0'>
+      <div className="w-full bg-[url('/footer-background.svg')] bg-no-repeat bg-contain lg:h-[221px] xl:h-[276px]"></div>
+      <div className='w-full bg-[#091242] text-[white] pb-12 mt-0'>
           <div className='flex justify-between lg:w-[90%] xl:w-[80%] m-auto'>
             <div className='w-[319px]'>
-              <img src={logo} alt="" className='mb-8 py-11' />
+              <img src={logo} alt="" className='mb-8 py-11' loading="lazy" />
               <div className='flex flex-col gap-4'>
                 <p>Leverage agile frameworks to provide a robust synopsis for strategy  collaborative thinking to further the overall value proposition.</p>
                 <div className='font-["Krub"] flex flex-col gap-4'>
                     <div className='flex items-center gap-4'>
                         <div>
-                          <img src={email} alt="email" />
+                          <img src={email} alt="email" loading="lazy" />
                         </div>
                         <div>
                           <p>Email <br />contact@logistics.com </p>
@@ -26,7 +26,7 @@ const Footer = () => {
                     </div>
                     <div className='flex items-center gap-4'>
                         <div>
-                          <img src={phone} alt="phone" />
+                          <img src={phone} alt="phone" loading="lazy" />
                         </div>
                         <div>
                           <p>Call Us <br />(00) 112 365 489 </p>
@@ -62,9 +62,9 @@ const Footer = () => {
                 <div className='flex justify-between items-center gap-6'>
                   <button className="h=[60px] px-12 py-5 text-[#23212A] my-8 block" style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)"}}>Send Now</button>
                   <div className='flex justify-between items-center gap-4'>
-                    <img src={linkedin} alt="linkedin" />
-                    <img src={twitter} alt="twitter" />
-                    <img src={facebook} alt="facebook" />
+                    <img src={linkedin} alt="linkedin" loading="lazy" />
+                    <img src={twitter} alt="twitter" loading="lazy" />
+                    <img src={facebook} alt="facebook" loading="lazy" />
                 </div>
                 </div>
               </form>
