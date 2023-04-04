@@ -11,10 +11,10 @@ const News = () => {
         <div className='text-[#1C1F35] my-10'>
             <div className='flex justify-around py-9 border-y border-[#D6D6D6]'>
                 <div className='w-[100%] h-[100%]'>
-                    <img src={blog1} alt="blog picture" width='100%' height='100%' />
+                    <img src={blog1} alt="blog picture" loading="lazy" width='100%' height='100%' />
                 </div>
                 <div className='flex flex-col items-center px-4'>
-                    <img src={date} alt="date icon" />
+                    <img src={date} alt="date icon" loading="lazy" />
                     <h1 className='text-[40px] font-semibold' style={{lineHeight: '40px'}}>08</h1>
                     <p className='text-[#666C89]'>September</p>
                 </div>
@@ -31,10 +31,10 @@ const News = () => {
             </div>
             <div className='flex justify-around py-9 border-b border-[#D6D6D6]'>
                 <div className='w-[100%] h-[100%]'>
-                    <img src={blog1} alt="blog picture" width='100%' height='100%' />
+                    <img src={blog1} alt="blog picture" width='100%' height='100%' loading="lazy" />
                 </div>
                 <div className='flex flex-col items-center px-4'>
-                    <img src={date} alt="date icon" />
+                    <img src={date} alt="date icon" loading="lazy" />
                     <h1 className='text-[40px] font-semibold' style={{lineHeight: '40px'}}>12</h1>
                     <p className='text-[#666C89]'>September</p>
                 </div>
@@ -51,10 +51,10 @@ const News = () => {
             </div>
             <div className='flex justify-around py-9 border-b border-[#D6D6D6]'>
                 <div className='w-[100%] h-[100%]'>
-                    <img src={blog1} alt="blog picture" width='100%' height='100%' />
+                    <img src={blog1} alt="blog picture" loading="lazy" width='100%' height='100%' />
                 </div>
                 <div className='flex flex-col items-center px-4'>
-                    <img src={date} alt="date icon" />
+                    <img src={date} alt="date icon" loading="lazy" />
                     <h1 className='text-[40px] font-semibold' style={{lineHeight: '40px'}}>25</h1>
                     <p className='text-[#666C89]'>September</p>
                 </div>

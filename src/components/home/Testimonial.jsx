@@ -7,13 +7,13 @@ import Star from '../Star'
 
 const Testimonial = () => {
   return (
-    <div className='w-screen'>
+    <div className='w-full'>
         <div className='lg:w-[90%] xl:w-[80%] py-[80px] mx-auto'>
             <h3 className='text-sm px-[9px] py-[3px] border-l-4 border-[#FFB629] w-[100px]' style={{fontFamily:'Rubik', background: 'rgba(232, 232, 232, 0.5)'}}>Testimonial</h3>
             <div className='flex justify-between'>
                 <h2 className='text-[#1C1F35] text-[32px] font-semibold' style={{fontFamily: 'Rubik'}}>What Our Customer Say</h2>
                 <div className='flex gap-2'>
-                    <img src={backwardArrow} alt="backward arrow" />
+                    <img src={backwardArrow} alt="backward arrow"/>
                     <img src={forwardArrow} alt="forward arrow" />
                 </div>
             </div>

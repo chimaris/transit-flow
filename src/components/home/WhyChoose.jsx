@@ -8,7 +8,7 @@ import pricing from '../../assets/pricing.svg'
 
 const WhyChoose = () => {
   return (
-    <div className='flex w-screen relative'>
+    <div className='flex w-full relative'>
         <div className='bg-[#091242] w-1/2'>
             
         </div>

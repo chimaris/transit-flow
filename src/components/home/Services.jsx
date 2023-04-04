@@ -13,7 +13,7 @@ const Services = () => {
             <div className='grid gap-6 grid-cols-2 grid-rows-2'>
                 <div className='flex gap-10'>
                     <div>
-                        <img src={sea} alt='sea' />
+                        <img src={sea} alt='sea' loading="lazy" />
                     </div>
                     <div className='border-l border-[#D8D8D8] pl-6 w-[320px]'>
                         <h2 className='text-[#1C1F35] lg:text-xl xl:text-2xl'>Sea Transport Services</h2>
@@ -22,7 +22,7 @@ const Services = () => {
                 </div>
                 <div className='flex gap-6'>
                     <div>
-                        <img src={warehouse} alt="warehouse" />
+                        <img src={warehouse} alt="warehouse" loading="lazy" />
                     </div>
                     <div className='border-l border-[#D8D8D8] pl-6 w-[320px]'>
                         <h2 className='text-[#1C1F35] lg:text-xl xl:text-2xl'>Warehousing Services</h2>
@@ -31,7 +31,7 @@ const Services = () => {
                 </div>
                 <div className='flex gap-4'>
                     <div>
-                        <img src={flight} alt="flight" />
+                        <img src={flight} alt="flight" loading="lazy" />
                     </div>
                     <div className='border-l border-[#D8D8D8] pl-6 w-[320px]'>
                         <h2 className='text-[#1C1F35] lg:text-xl xl:text-2xl'>Air Fright Services</h2>
@@ -40,7 +40,7 @@ const Services = () => {
                 </div>
                 <div className='flex gap-5'>
                     <div>
-                        <img src={bus} alt="bus" />
+                        <img src={bus} alt="bus" loading="lazy" />
                     </div>
                     <div className='border-l border-[#D8D8D8] pl-6 w-[320px]'>
                         <h2 className='text-[#1C1F35] lg:text-xl xl:text-[20px]'>Local Shipping Services</h2>

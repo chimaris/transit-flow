@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <>
         <TopNav/>
-        <div className="bg-[url('/hero.svg')] h-[800px] bg-cover bg-center bg-no-repeat text-white w-screen">
+        <div className="bg-[url('/hero.svg')] h-[800px] bg-cover bg-center bg-no-repeat text-white w-full">
           <Nav/>
           <Hero/>
         </div>

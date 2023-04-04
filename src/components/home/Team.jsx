@@ -4,7 +4,7 @@ import team3 from '../../assets/team3.svg'
 
 const Team = () => {
   return (
-    <div className='my-16 w-screen'>
+    <div className='my-16 w-full'>
         <div className='flex flex-col items-center gap-3'>
             <h3 className='text-sm px-[9px] py-[3px] border-l-4 border-[#FFB629] w-[150px]' style={{fontFamily:'Rubik', background: 'rgba(232, 232, 232, 0.5)'}}>The Transporters</h3>
             <h2 className='text-[#1C1F35] text-[32px] font-semibold w-[400px] text-center' style={{fontFamily: 'Rubik'}}>Meet Expert Team</h2>
@@ -12,7 +12,7 @@ const Team = () => {
         
         <div className='lg:w-[90%] xl:w-[80%] mx-auto my-4 flex gap-14'>
             <div className='w-[364px] lg:h-[429px] xl:h-[467px] relative'>
-                <img src={team1} alt="team1" />
+                <img src={team1} alt="team1" loading="lazy" />
                 <div className='bg-[#1C1F35] text-white h-[112px] pt-10 pl-8'>
                     <h3 className='text-xl'>Jessca Arow <br /> <span className='text-base'>Designer</span></h3>
                 </div>
@@ -23,7 +23,7 @@ const Team = () => {
                 </div>
             </div>
             <div className='w-[364px] lg:h-[429px] xl:h-[467px] relative'>
-                <img src={team2} alt="team1" />
+                <img src={team2} alt="team1" loading="lazy" />
                 <div className='bg-[#1C1F35] text-white h-[112px] pt-10 pl-8'>
                     <h3 className='text-xl'>Kathleen Smith <br /> <span className='text-base'>Designer</span></h3>
                 </div>
@@ -35,7 +35,7 @@ const Team = () => {
                 </div>
             </div>
             <div className='w-[364px] lg:h-[429px] xl:h-[467px] relative'>
-                <img src={team3} alt="team1" />
+                <img src={team3} alt="team1" loading="lazy" />
                 <div className='bg-[#1C1F35] text-white h-[112px] pt-10 pl-8'>
                     <h3 className='text-xl'>Rebecca Tylor <br /> <span className='text-base'>Designer</span></h3>
                 </div>
