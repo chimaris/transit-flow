@@ -1,5 +1,6 @@
 import blog1 from '../../assets/blog1.svg'
 import date from '../../assets/date.svg'
+import Button from '../ui/Button'
 
 const News = () => {
   return (
@@ -69,7 +70,7 @@ const News = () => {
                     </ul>
                 </div>
             </div>
-            <a href="#" className="h=[60px] w-[164px] px-10 py-5 text-white bg-[#091242] block mx-auto my-5">More Blog</a>
+            <Button content={'More Blog'} beforeBgColor='before:bg-[#1F2A69]' style={{backgroundColor: "#091242", color:'white', width:'170px', margin:'20px auto', display: 'block'}}/>
         </div>
     </div>
   )

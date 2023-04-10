@@ -22,7 +22,7 @@ const Transport = () => {
                 <TransportCard names={['Warehouse & Distribution', 'Large Warehouse']} bg="bg-[url('/transport4.svg')]" textSize='lg'/>
                 <TransportCard names={['Specialized Transport', 'Ocean Transports']} bg="bg-[url('/transport5.svg')]"/>
             </div>
-            <Button content={'More Work'} style={{backgroundColor: "#091242", color:'white', width:'200px'}}/>
+            <Button content={'More Work'} beforeBgColor='before:bg-[#1F2A69]' style={{backgroundColor: "#091242", color:'white', width:'200px'}}/>
         </div>
     </div>
   )
