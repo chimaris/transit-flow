@@ -8,7 +8,7 @@ import linkedin from '../../assets/linkedin.svg'
 const Footer = () => {
   return (
     <>
-      <div className="w-full bg-[url('/footer-background.svg')] bg-no-repeat bg-contain lg:h-[221px] xl:h-[276px]"></div>
+      <div className="w-full bg-[url('/footer-background.svg')] bg-no-repeat bg-cover lg:h-[221px] xl:h-[276px]"></div>
       <div className='w-full bg-[#091242] text-[white] pb-12 mt-0'>
           <div className='flex justify-between lg:w-[90%] xl:w-[80%] m-auto'>
             <div className='w-[319px]'>
