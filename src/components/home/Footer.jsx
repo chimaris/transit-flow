@@ -4,11 +4,12 @@ import logo from '../../assets/Logo.svg'
 import facebook from '../../assets/facebook.svg'
 import twitter from '../../assets/twitter.svg'
 import linkedin from '../../assets/linkedin.svg'
+import Button from '../ui/Button'
 
 const Footer = () => {
   return (
     <>
-      <div className="w-full bg-[url('/footer-background.svg')] bg-no-repeat bg-contain lg:h-[221px] xl:h-[276px]"></div>
+      <div className="w-full bg-[url('/footer-background.svg')] bg-no-repeat bg-cover lg:h-[221px] xl:h-[276px]"></div>
       <div className='w-full bg-[#091242] text-[white] pb-12 mt-0'>
           <div className='flex justify-between lg:w-[90%] xl:w-[80%] m-auto'>
             <div className='w-[319px]'>
@@ -60,7 +61,7 @@ const Footer = () => {
               <form>
                 <input type="email" placeholder='Email*' className='bg-transparent border border-[#4E5683] py-4 px-7 w-full' />
                 <div className='flex justify-between items-center gap-6'>
-                  <button className="h=[60px] px-12 py-5 text-[#23212A] my-8 block" style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)"}}>Send Now</button>
+                <Button content={'Send Now'} beforeBgColor='before:bg-white' style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)", color:'#23212A', margin:'32px 0'}}/>
                   <div className='flex justify-between items-center gap-4'>
                     <img src={linkedin} alt="linkedin" loading="lazy" />
                     <img src={twitter} alt="twitter" loading="lazy" />

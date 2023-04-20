@@ -1,3 +1,13 @@
+import Button from "../ui/Button"
+
+const TransportCard = ({names, bg, textSize}) => {
+    return (
+        <div className={`bg-contain bg-no-repeat h-[380px] w-[230px] pl-4 pt-56 ${bg}`}>
+            <h3 className={textSize ? `${textSize}`: 'text-xl' }>{names[0]}</h3>
+            <p className='text-[#FFB629] text-[16px]'>{names[1]}</p>
+        </div>
+    )
+}
 
 const Transport = () => {
   return (
@@ -6,28 +16,13 @@ const Transport = () => {
         <div className='flex flex-col items-center mx-auto absolute left-32 -top-96 py-[85px] w-[80%]'>
             <h2 className='text-[#1C1F35] text-[35px] font-semibold py-6' style={{fontFamily: 'Rubik'}}>Transporting Across The World</h2>
             <div className='flex text-white gap-2'>
-                <div className="bg-[url('/transport1.svg')] bg-contain bg-no-repeat h-[380px] w-[230px] pl-4 pt-56">
-                    <h3 className='text-xl'>Liquid Transportation</h3>
-                    <p className='text-[#FFB629] text-[16px]'>Premium Tankers</p>
-                </div>
-                <div className="bg-[url('/transport2.svg')] bg-contain bg-no-repeat h-[380px] w-[230px] pl-4 pt-56">
-                    <h3 className='text-xl'>Packaging Solutions</h3>
-                    <p className='text-[#FFB629] text-[16px]'>Warehouse Management</p>
-                </div>
-                <div className="bg-[url('/transport3.svg')] bg-contain bg-no-repeat h-[380px] w-[230px] pl-4 pt-56">
-                    <h3 className='text-xl'>Contract Logistics</h3>
-                    <p className='text-[#FFB629] text-[16px]'>Road Transportation</p>
-                </div>
-                <div className="bg-[url('/transport4.svg')] bg-contain bg-no-repeat h-[380px] w-[230px] pl-4 pt-56">
-                    <h3 className='text-lg'>Warehouse & Distribution</h3>
-                    <p className='text-[#FFB629] text-[16px]'>Large Warehouse</p>
-                </div>
-                <div className="bg-[url('/transport5.svg')] bg-contain bg-no-repeat h-[380px] w-[230px] pl-4 pt-56">
-                    <h3 className='text-xl'>Specialized Transport</h3>
-                    <p className='text-[#FFB629] text-[16px]'>Ocean Transports</p>
-                </div>
+                <TransportCard names={['Liquid Transportation', 'Premium Tankers']} bg="bg-[url('/transport1.svg')]" />
+                <TransportCard names={['Packaging Solutions', 'Warehouse Management']} bg="bg-[url('/transport2.svg')]"/>
+                <TransportCard names={['Contract Logistics', 'Road Transportation']} bg="bg-[url('/transport3.svg')]"/>
+                <TransportCard names={['Warehouse & Distribution', 'Large Warehouse']} bg="bg-[url('/transport4.svg')]" textSize='lg'/>
+                <TransportCard names={['Specialized Transport', 'Ocean Transports']} bg="bg-[url('/transport5.svg')]"/>
             </div>
-            <a href="#" className="h=[60px] w-[164px] px-10 py-5 text-white bg-[#091242] text-base">More Work</a>
+            <Button content={'More Work'} beforeBgColor='before:bg-[#1F2A69]' style={{backgroundColor: "#091242", color:'white', width:'200px'}}/>
         </div>
     </div>
   )

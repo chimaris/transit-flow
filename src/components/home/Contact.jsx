@@ -1,6 +1,7 @@
 import clock from '../../assets/clock.svg'
 import email from '../../assets/email.svg'
 import phone from '../../assets/phone.svg'
+import Button from '../ui/Button'
 
 const Contact = () => {
   return (
@@ -47,7 +48,7 @@ const Contact = () => {
                         <input type="text" placeholder='City*' className='bg-transparent border border-[#4E5683] py-4 px-7' />
                     </div>
                     <textarea name="" id="" cols="30" rows="10" placeholder='Your Message' className='block h-[154px] w-full bg-transparent border border-[#4E5683] py-4 px-7'></textarea>
-                    <button className="h=[60px] px-12 py-5 text-[#23212A] my-8" style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)"}}>Submit Message</button>
+                    <Button content={'Submit Message'} style={{background: "linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%)", color:'#23212A', margin:'32px 0'}}/>
                 </form>
                </div>
             </div>

@@ -18,7 +18,7 @@ const TopNav = () => {
                         <img src={clock} alt="clock" />
                     </div>
                     <div>
-                        <p className='lg:text-xs xl:text-sm'>Mon - Sat 9.00 - 18.00 <br /> Sunday Closed </p>
+                        <p className='lg:text-xs text-sm'>Mon - Sat 9.00 - 18.00 <br /> Sunday Closed </p>
                     </div>
                 </div>
                 <div className='flex justify-around items-center xl:gap-4 lg:gap-[2px]'>
