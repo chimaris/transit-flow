@@ -7,7 +7,7 @@ import phone from '../../assets/phone.svg'
 
 const TopNav = () => {
   return (
-    <div className='bg-[#091242] w-full h-40 text-white'>
+    <div className='bg-[#091242] w-full h-40 text-white hidden lg:block'>
         <div className='flex justify-between items-center lg:w-[90%] xl:w-[80%] mx-auto gap-[110px] h-40'>
             <div>
                 <img src={logo} alt="logo" />

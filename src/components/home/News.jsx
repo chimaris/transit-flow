@@ -4,7 +4,7 @@ import Button from '../ui/Button'
 
 const News = () => {
   return (
-    <div className='my-16 w-[70%] mx-auto'>
+    <div className='hidden lg:block my-16 w-[70%] mx-auto'>
         <div className='flex flex-col items-center gap-3'>
             <h3 className='text-sm px-[9px] py-[3px] border-l-4 border-[#FFB629] w-[80px]' style={{fontFamily:'Rubik', background: 'rgba(232, 232, 232, 0.5)'}}>Our Blog</h3>
             <h2 className='text-[#1C1F35] text-[32px] font-semibold w-[400px] text-center' style={{fontFamily: 'Rubik'}}>Our Latest News</h2>
