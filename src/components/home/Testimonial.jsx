@@ -8,18 +8,18 @@ import { Testimonies } from '../../data/constant'
 const Testimonial = () => {
   return (
     <div className='w-full'>
-        <div className='lg:w-[90%] xl:w-[80%] py-[80px] mx-auto'>
-            <h3 className='text-sm px-[9px] py-[3px] border-l-4 border-[#FFB629] w-[100px]' style={{fontFamily:'Rubik', background: 'rgba(232, 232, 232, 0.5)'}}>Testimonial</h3>
-            <div className='flex justify-between'>
-                <h2 className='text-[#1C1F35] text-[32px] font-semibold' style={{fontFamily: 'Rubik'}}>What Our Customer Say</h2>
+        <div className='w-[90%] xl:w-[80%] py-[80px] mx-auto'>
+            <h3 className='text-sm px-[9px] py-2 lg:py-[3px] border-l-4 border-[#FFB629] w-[100px]' style={{fontFamily:'Rubik', background: 'rgba(232, 232, 232, 0.5)'}}>Testimonial</h3>
+            <div className='flex justify-between items-center'>
+                <h2 className='text-[#1C1F35] text-lg lg:text-[32px] font-semibold' style={{fontFamily: 'Rubik'}}>What Our Customer Say</h2>
                 <div className='flex gap-2'>
                     <img src={backwardArrow} alt="backward arrow"/>
                     <img src={forwardArrow} alt="forward arrow" />
                 </div>
             </div>
-            <div className='flex mt-10'>
+            <div className='flex flex-col lg:flex-row mt-10'>
                 {Testimonies.map((testimony,index) => (
-                    <div className={`py-16 px-12 gap-8 ${index % 2 === 0 ? 'bg-[#F4F4F4]' : 'bg-[#091242] text-white'}`}>
+                    <div className={`py-16 px-2 lg:px-12 gap-8 ${index % 2 === 0 ? 'bg-[#F4F4F4]' : 'bg-[#091242] text-white'}`}>
                     <div className='flex justify-between'>
                         <div className='flex items-center gap-4'>
                             <img src={testimony.img} alt={testimony.name} className='rounded-full' />

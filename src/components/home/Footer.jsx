@@ -11,7 +11,7 @@ const Footer = () => {
     <>
       <div className="w-full bg-[url('/footer-background.svg')] bg-no-repeat bg-cover lg:h-[221px] xl:h-[276px]"></div>
       <div className='w-full bg-[#091242] text-[white] pb-12 mt-0'>
-          <div className='flex justify-between lg:w-[90%] xl:w-[80%] m-auto'>
+          <div className='flex flex-col lg:flex-row justify-between w-[90%] xl:w-[80%] m-auto'>
             <div className='w-[319px]'>
               <img src={logo} alt="" className='mb-8 py-11' loading="lazy" />
               <div className='flex flex-col gap-4'>
@@ -74,8 +74,8 @@ const Footer = () => {
             
           </div>
           <div className='w-full bg-[#091242] text-[white] border-t border-[#4E5683]'>
-            <div className='flex justify-between lg:w-[90%] xl:w-[80%] m-auto py-4'>
-                <p>Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.</p>
+            <div className='flex flex-col-reverse lg:flex-row justify-between gap-2 lg:w-[90%] xl:w-[80%] m-auto px-2 lg:px-0 py-4'>
+                <p className='text-xs text-center lg:text-left lg:text-base'>Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.</p>
                 <ul className='text-[#8388A7] flex gap-4'>
                   <li>Style Guide</li>
                   <li>Licenses</li>
